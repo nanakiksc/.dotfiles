@@ -4,6 +4,7 @@ filetype off               " required
 set rtp+=~/.vim/bundle/Vundle.vim   " set the runtime path to include Vundle
 call vundle#begin()                 " and initialize
 Plugin 'gmarik/Vundle.vim' " let Vundle manage Vundle, required
+Plugin 'altercation/vim-colors-solarized'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -70,3 +71,6 @@ autocmd FileType c setlocal shiftwidth=3 softtabstop=3
 autocmd FileType r setlocal shiftwidth=3 softtabstop=3
 autocmd FileType html setlocal shiftwidth=2 softtabstop=2
 autocmd FileType python setlocal shiftwidth=4 softtabstop=4
+
+" Remove trailing whitespace when saving
+autocmd BufWritePre * :%s/\s\+$//e
