@@ -8,6 +8,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'jalvesaq/R-Vim-runtime'
 Plugin 'Vim-R-plugin'
 Plugin 'ervandew/screen'
+Plugin 'ekalinin/Dockerfile.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
