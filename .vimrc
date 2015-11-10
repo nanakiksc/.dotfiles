@@ -5,10 +5,11 @@ set rtp+=~/.vim/bundle/Vundle.vim   " set the runtime path to include Vundle
 call vundle#begin()                 " and initialize
 Plugin 'gmarik/Vundle.vim' " let Vundle manage Vundle, required
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'jalvesaq/R-Vim-runtime'
-Plugin 'Vim-R-plugin'
 Plugin 'ervandew/screen'
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'jalvesaq/R-Vim-runtime'
+"Plugin 'jceb/vim-orgmode'
+Plugin 'Vim-R-plugin'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
