@@ -4,6 +4,7 @@ filetype off               " required
 set rtp+=~/.vim/bundle/Vundle.vim   " set the runtime path to include Vundle
 call vundle#begin()                 " and initialize
 Plugin 'gmarik/Vundle.vim' " let Vundle manage Vundle, required
+Plugin 'tomasr/molokai'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'ervandew/screen'
 Plugin 'ekalinin/Dockerfile.vim'
